@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection{
+  color: rgb(205, 133, 0);
+}
+*{
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.zind{
+  z-index: 5;
+}
